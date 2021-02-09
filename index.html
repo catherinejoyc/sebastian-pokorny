@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive on all platforms -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+	<title>catherinejoyc</title>
+</head>
+
+<body>
+	<!-- Sidebar -->
+	<div class="sidebar">
+		<!-- Navbar -->
+		<ul>
+			<li><a onclick="activateNavItem('navItemHome')" class="navItem active" id="navItemHome" href="#home">Home</a></li>
+			<li><a onclick="activateNavItem('navItemSkills')" class="navItem" id="navItemSkills" href="#skills">Skills</a></li>
+			<li><a onclick="activateNavItem('navItemPortfolio')" class="navItem" id="navItemPortfolio" href="#portfolio">Portfolio</a></li>
+			<li><a onclick="activateNavItem('navItemWorkflow')" class="navItem" id="navItemWorkflow" href="#workflow">Workflow</a></li>
+			<li><a onclick="activateNavItem('navItemAboutMe')" class="navItem" id="navItemAboutMe" href="#about-me">About Me</a></li>
+			<li><a onclick="activateNavItem('navItemContact')" class="navItem" id="navItemContact" href="#contact">Contact</a></li>
+		</ul>
+	</div>
+
+	<!-- Content -->
+	<div class="content">
+		<!-- Home -->
+		<div class="section" id="home">
+			<div class="homeContent">
+				<div>
+					<h1>Sebastian Pokorny</h1>
+					<h3>Game Development</h3>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Skills -->
+		<div class="section" id="skills">
+			<div class="row">
+				<div class="column">
+					<h3>Game Development</h3>
+					<h4>Unity 2D & 3D</h4>
+					<div class="skillContainer">
+					<div class="skills unity">100%</div>
+					</div>
+					<h4>C#</h4>
+					<div class="skillContainer">
+						<div class="skills cSharp">100%</div>
+					</div>
+					<h4>Github & Sourcetree</h4>
+					<div class="skillContainer">
+						<div class="skills github">85%</div>
+					</div>
+					<h4>GameMaker Studio 2 (Game Maker Language)</h4>
+					<div class="skillContainer">
+						<div class="skills gameMaker">30%</div>
+					</div>
+					<h4>Unreal</h4>
+					<div class="skillContainer">
+						<div class="skills unreal">20%</div>
+					</div>
+					<h4>Pico-8</h4>
+					<div class="skillContainer">
+						<div class="skills pico8">20%</div>
+					</div>
+				</div>
+				<div class="column">
+					<h3>Web Development</h3>
+					<h4>HTML</h4>
+					<div class="skillContainer">
+					<div class="skills html">90%</div>
+					</div>
+					<h4>CSS</h4>
+					<div class="skillContainer">
+						<div class="skills css">90%</div>
+					</div>
+					<h4>JavaScript</h4>
+					<div class="skillContainer">
+						<div class="skills javaScript">60%</div>
+					</div>
+				</div>
+				<div class="column">
+					<h3>Art & Design</h3>
+					<h4>Photoshop</h4>
+					<div class="skillContainer">
+					<div class="skills photoshop">100%</div>
+					</div>
+					<h4>Krita</h4>
+					<div class="skillContainer">
+						<div class="skills krita">100%</div>
+					</div>
+					<h4>Clip Studio Paint</h4>
+					<div class="skillContainer">
+						<div class="skills clipStudioPaint">90%</div>
+					</div>
+					<h4>Autodesk Maya</h4>
+					<div class="skillContainer">
+						<div class="skills maya">85%</div>
+					</div>
+					<h4>Illustrator</h4>
+					<div class="skillContainer">
+						<div class="skills illustrator">60%</div>
+					</div>
+					<h4>InDesign</h4>
+					<div class="skillContainer">
+						<div class="skills indesign">60%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Portfolio -->
+		<div class="section" id="portfolio">
+			<div class="sectionContent">
+				<h3>Portfolio</h3>
+				<!-- <p>Where is Eleanor Rose?, Razor, Camazotz, Mino, Garbage Collector (Candy Crush)</p>
+				<p>kinayastudios.com</p> -->
+				<div class="slideshowContainer">
+
+					<div class="slide">
+						<div class="slideImage" id="wier"></div>
+						<div class="slideInfo">
+								<h2 class="projectTitle">Where is Eleanor Rose?</h2>
+								<h4>2D Adventure Game, Visual Novel</h4>
+								<h4>Role: Game Director & Developer/Programmer</h4>
+								<h4>Tools: Unity 2D, Visual Studio, Github, Sourcetree</h4>
+								<h4>Programming Language: C#</h4>
+						</div>
+						<div class="slideLinks">
+								<a href="assets/download/WhereIsEleanorRose_Presskit.zip">Presskit</a>
+								<a href="https://www.youtube.com/watch?v=QDef6qkOlhk" target="_blank">Trailer</a>
+								<a href="https://www.youtube.com/watch?v=WF_lY4gAEpI" target="_blank">Gameplay</a>
+								<a href="https://teamkdg.itch.io/where-is-eleanor-rose" target="_blank">Download</a>
+								<a href="https://github.com/catherinejoyc/where-is-eleanor-rose" target="_blank">Github</a>
+								<a href="https://whereseleanor.design/" target="_blank">Web</a>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="slideImage" id="camazotz"></div>
+						<div class="slideInfo">
+								<h2 class="projectTitle">Camazotz</h2>
+								<h4>3D Adventure Game, Third Person</h4>
+								<h4>Role: Solo Developer</h4>
+								<h4>Tools: Unity 3D, Visual Studio, Github, Sourcetree, Photoshop, Autodesk Maya</h4>
+								<h4>Programming Language: C#</h4>
+						</div>
+						<div class="slideLinks">
+								<a href="assets/download/Camazotz_Presskit.zip">Presskit</a>
+								<a href="assets/download/Camazotz_WindowsBuild.zip">Download</a>
+								<a href="assets/download/Camazotz_vid.mp4" target="_blank" download>Trailer</a>
+								<a href="https://github.com/catherinejoyc/camazotz" target="_blank">Github</a>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="slideImage" id="mino"></div>
+						<div class="slideInfo">
+								<h2 class="projectTitle">Mino</h2>
+								<h4>3D Audio Game, First Person</h4>
+								<h4>Role: Developer/Programmer</h4>
+								<h4>Tools: Unity 3D, Visual Studio, Github, Sourcetree</h4>
+								<h4>Programming Language: C#</h4>
+						</div>
+						<div class="slideLinks">
+								<a href="assets/download/Mino_Presskit.zip">Presskit</a>
+								<a href="assets/download/Mino_Build.zip">Download</a>
+								<a href="assets/download/MinoTrailer.mp4" target="_blank" download>Trailer</a>
+								<a href="assets/download/MinoGameplay.mp4" target="_blank" download>Gameplay</a>
+								<a href="https://github.com/catherinejoyc/mino" target="_blank">Github</a>
+						</div>
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Workflow -->
+		<div class="section" id="workflow">
+			<div class="row">
+				<div class="columnLeftWorkFlow">
+					<h3>My Workflow</h3>
+					<div class="grid-container">
+						<div class="grid-item">
+							<h4>Step 1 - Concept and Design</h4>
+							<p>Before creating assets and scripts you need to start with the concept of the game. What design goals are you trying to reach? Which features help you create the experience? We usually start with a narrative/story and create a mood board with fitting artworks, games and animations.</p>
+						</div>
+						<div class="grid-item">
+							<h4>Step 2 - High Concept</h4>
+							<p>After nailing down the rough style and direction of the game, the next step is to create a detailed game document: genre, target audience, features etc. It is important to go into detail when describing the art style and the mechanics. That way every team member knows what should be achieved and planning sprints and milestone will be easier.</p>
+						</div>
+						<div class="grid-item">
+							<h4>Step 3 - Project Management</h4>
+							<p>Good planning may take up a lot of time at first but will end up saving time and energy on the long run. We use milestones like Pre-Production, Core Mechanics, Feature Complete and Gold to label the development stages and set up the goals for each milestone. Every week/fortnight we have a sprint meeting in which we discuss future goals and current progress.</p>
+						</div>  
+						<div class="grid-item">
+							<h4>Step 4 - Software Architecture</h4>
+							<p>In this step the different objects, their functionality and their relationship to each other will be mapped out. I use component diagrams to visualize the code structure, which helps me keep track of the code structure.</p>
+						</div>
+						<div class="grid-item">
+							<h4>Step 5 - Coding and Testing</h4>
+							<p>Each line of code must be tested before moving on to the next line. Non-stop coding may lead to a string of errors that could have been prevented by thorough testing. When discovering bugs, a detailed description of the process is essential in order to recreate it.</p>
+						</div>
+						<div class="grid-item">
+							<h4>Extras - Audio & Art</h4>
+							<p>It is a privilege to have artists and audio designers that are proficient with the engine and can replace the assets themselves. However, sometimes it is necessary to have the programmer at hand in order to drag the right items into the inspector – especially early on in development.</p>
+						</div> 
+					</div>
+					<h4>Step 6 - Presskit & PR</h4>
+          <p>The next steps would be creating a presskit and joining different competitions, posting the game on social media and telling friends and family about your game. Oh, by the way – my diploma project team and I won the <a href="https://subotron.com/10295-live-pitch-winners-2020/">SUBOTRON Students Live Pitch 2020</a> with our game “Where is Eleanor Rose?”. Please check it out on <a href="https://teamkdg.itch.io/where-is-eleanor-rose">Itch.io</a>, Instagram <a href="https://www.instagram.com/wheres.eleanor/">@wheres.eleanor</a> and Twitter <a href="https://twitter.com/wheres_eleanor">@wheres_eleanor</a>!</p>
+				</div>
+				<div class="columnRightWorkFlow">
+					<img class="workflowImage" src="assets/images/123.jpg">
+					<img class="workflowImage" src="assets/images/456.jpg">
+					<img class="workflowImage" src="assets/images/6.jpg">
+				</div>	
+			</div>
+		</div>
+		
+
+
+		<!-- About me -->
+		<div class="section" id="about-me">
+			<div class="row">
+				<div class="columnLeft">
+					<img class="profilePic">
+				</div>
+				<div class="columnRight">
+          <h3>About Me</h3>
+          <p>My name is Catherine Joy Calupas and I am a 19-year-old Junior Game Developer based in Vienna, Austria. I graduated 2020 with excellence at the HTL Spengergasse (Technical College in Vienna) in Game Design.</p>
+          <p>The most exciting aspect of developing a game is testing it. Of course, you have to test every line of code itself but playing through the whole thing without game-breaking bugs always leaves me satisfied.</p>
+          <p>My biggest accomplishment is winning the <a href="https://subotron.com/10295-live-pitch-winners-2020/">SUBOTRON Students Live Pitch 2020</a> together with my diploma project team. I pitched our game in front of an online audience consisting of the jury, other competing projects and interested viewers all around Europe.</p>
+          <p>I am currently looking for work in the game industry. Preferably as a developer/programmer but I am also interested in Game Design and Art. If you want to know more about me (CV, certificates etc.) please send me a message to <a href="mailto:cat.calupas@gmail.com">cat.calupas@gmail.com</a>!</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact -->
+		<div class="section" id="contact">
+			<div class="contact">
+				<h1>Contact Me!</h1>
+				<p>Phone: +43 660 546 5788</p>
+				<p>Email: <a href="mailto:cat.calupas@gmail.com">cat.calupas@gmail.com</a> </p>
+				<br>
+				<h2>Social</h2>
+				<p>Instagram: <a href="https://www.instagram.com/catherine_joy_c">@catherine_joy_c</a></p>	
+				<p>Twitter: <a href="https://twitter.com/catherine_j_c">@catherine_j_c</a></p>
+			</div>
+
+			<footer>
+				<p>&copy; 2021 Catherine Joy Calupas. All rights reserved.</p>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/slideshow.js"></script>
+</body>
+</html>
