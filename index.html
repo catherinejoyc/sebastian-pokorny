@@ -18,23 +18,39 @@
 		<!-- Navbar -->
 		<ul>
 			<li><a onclick="activateNavItem('navItemHome')" class="navItem active" id="navItemHome" href="#home">Home</a></li>
+			<li><a onclick="activateNavItem('navItemAboutMe')" class="navItem" id="navItemAboutMe" href="#about-me">About Me</a></li>
 			<li><a onclick="activateNavItem('navItemSkills')" class="navItem" id="navItemSkills" href="#skills">Skills</a></li>
 			<li><a onclick="activateNavItem('navItemPortfolio')" class="navItem" id="navItemPortfolio" href="#portfolio">Portfolio</a></li>
-			<li><a onclick="activateNavItem('navItemWorkflow')" class="navItem" id="navItemWorkflow" href="#workflow">Workflow</a></li>
-			<li><a onclick="activateNavItem('navItemAboutMe')" class="navItem" id="navItemAboutMe" href="#about-me">About Me</a></li>
+			<li><a onclick="activateNavItem('navItemWorkflow')" class="navItem" id="navItemWorkflow" href="#workflow">Workflow</a></li>	
 			<li><a onclick="activateNavItem('navItemContact')" class="navItem" id="navItemContact" href="#contact">Contact</a></li>
 		</ul>
+
+		<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="de_DE" data-type="vertical" data-theme="dark" data-vanity="sebastian-pokorny">
+			<a class="LI-simple-link" href="https://at.linkedin.com/in/sebastian-pokorny?trk=profile-badge%27%3ESebastian Pokorny"></a>
+		</div>
+		
 	</div>
 
 	<!-- Content -->
 	<div class="content">
 		<!-- Home -->
-		<div class="section" id="home">
+		<div id="home">
 			<div class="homeContent">
-				<div>
-					<h1>Sebastian Pokorny</h1>
-					<h3>Game Development</h3>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores </p>
+			</div>
+		</div>
+
+		<!-- About me -->
+		<div id="about-me">
+			<div class="row">
+				<div class="columnLeft">
+					<img class="profilePic" src="assets/images/profile.JPG">
+				</div>
+				<div class="columnRight">
+          <h3>About Me</h3>
+          <p>My name is Catherine Joy Calupas and I am a 19-year-old Junior Game Developer based in Vienna, Austria. I graduated 2020 with excellence at the HTL Spengergasse (Technical College in Vienna) in Game Design.</p>
+          <p>The most exciting aspect of developing a game is testing it. Of course, you have to test every line of code itself but playing through the whole thing without game-breaking bugs always leaves me satisfied.</p>
+          <p>My biggest accomplishment is winning the <a href="https://subotron.com/10295-live-pitch-winners-2020/">SUBOTRON Students Live Pitch 2020</a> together with my diploma project team. I pitched our game in front of an online audience consisting of the jury, other competing projects and interested viewers all around Europe.</p>
+          <p>I am currently looking for work in the game industry. Preferably as a developer/programmer but I am also interested in Game Design and Art. If you want to know more about me (CV, certificates etc.) please send me a message to <a href="mailto:cat.calupas@gmail.com">cat.calupas@gmail.com</a>!</p>
 				</div>
 			</div>
 		</div>
@@ -226,21 +242,7 @@
 		
 
 
-		<!-- About me -->
-		<div class="section" id="about-me">
-			<div class="row">
-				<div class="columnLeft">
-					<img class="profilePic">
-				</div>
-				<div class="columnRight">
-          <h3>About Me</h3>
-          <p>My name is Catherine Joy Calupas and I am a 19-year-old Junior Game Developer based in Vienna, Austria. I graduated 2020 with excellence at the HTL Spengergasse (Technical College in Vienna) in Game Design.</p>
-          <p>The most exciting aspect of developing a game is testing it. Of course, you have to test every line of code itself but playing through the whole thing without game-breaking bugs always leaves me satisfied.</p>
-          <p>My biggest accomplishment is winning the <a href="https://subotron.com/10295-live-pitch-winners-2020/">SUBOTRON Students Live Pitch 2020</a> together with my diploma project team. I pitched our game in front of an online audience consisting of the jury, other competing projects and interested viewers all around Europe.</p>
-          <p>I am currently looking for work in the game industry. Preferably as a developer/programmer but I am also interested in Game Design and Art. If you want to know more about me (CV, certificates etc.) please send me a message to <a href="mailto:cat.calupas@gmail.com">cat.calupas@gmail.com</a>!</p>
-				</div>
-			</div>
-		</div>
+		
 
 		<!-- Contact -->
 		<div class="section" id="contact">
@@ -265,5 +267,6 @@
 	<!-- Scripts -->
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/slideshow.js"></script>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>

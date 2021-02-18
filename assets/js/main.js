@@ -17,14 +17,14 @@ window.onscroll = function() {updateNavItemOnScroll()};
 function updateNavItemOnScroll() {
   if (window.pageYOffset > (document.getElementById("contact").offsetTop - 20)){
     activateNavItem('navItemContact');
-  } else if (window.pageYOffset > (document.getElementById("about-me").offsetTop - 20)){
-    activateNavItem('navItemAboutMe');
   } else if (window.pageYOffset > (document.getElementById("workflow").offsetTop - 20)){
     activateNavItem('navItemWorkflow');
   } else if (window.pageYOffset > (document.getElementById("portfolio").offsetTop - 20)){
     activateNavItem('navItemPortfolio');
   } else if (window.pageYOffset > (document.getElementById("skills").offsetTop - 20)){
     activateNavItem('navItemSkills');
+  } else if (window.pageYOffset > (document.getElementById("about-me").offsetTop - 20)){
+    activateNavItem('navItemAboutMe');
   } else {
     activateNavItem('navItemHome');
   }
