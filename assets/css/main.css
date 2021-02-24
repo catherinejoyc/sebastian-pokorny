@@ -103,6 +103,7 @@ html {
   }
   #portfolio{
   background-color: var(--secondary-color);
+  height: 70%;
   color: #F3EFFA;
   }
   #workflow{
@@ -141,7 +142,21 @@ html {
   .column{
   float: left;
   width: 23.33%;
+  height: 600px;
   padding: 5%;
+  opacity: 50%;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  color: var(--main-color);
+  }
+  .column a{
+    color: var(--main-color);
+  }
+  .column a:hover{
+    color: var(--accent-light);
+  }
+  .column:hover{
+    opacity: 100%;
   }
   .row:after {
     content: "";
@@ -319,8 +334,6 @@ html {
   .profilePic{
     box-sizing: border-box;
     width: 100%;
-    border: solid #1f1f1f 5px;
-    border-radius: 5px;
   }
   #about-me a{
     color: #1f1f1f;
