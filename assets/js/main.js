@@ -21,8 +21,8 @@ function updateNavItemOnScroll() {
     activateNavItem('navItemWorkflow');
   } else if (window.pageYOffset > (document.getElementById("portfolio").offsetTop - 20)){
     activateNavItem('navItemPortfolio');
-  } else if (window.pageYOffset > (document.getElementById("skills").offsetTop - 20)){
-    activateNavItem('navItemSkills');
+  // } else if (window.pageYOffset > (document.getElementById("skills").offsetTop - 20)){
+  //   activateNavItem('navItemSkills');
   } else if (window.pageYOffset > (document.getElementById("about-me").offsetTop - 20)){
     activateNavItem('navItemAboutMe');
   } else {
