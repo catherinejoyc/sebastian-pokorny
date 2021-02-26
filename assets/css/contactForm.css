@@ -28,6 +28,19 @@ html, body {
   font-family: "DM Sans";
 }
 
+p{
+  color: var(--main-color);
+  text-align: center;
+}
+
+a{
+  color: var(--main-color);
+}
+
+a:hover{
+  color: var(--accent-light);
+}
+
 .inbound-form-wrapper{
   width: 70%;
   margin: auto;
